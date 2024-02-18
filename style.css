@@ -9,10 +9,15 @@ body {
     background-color: #74B997;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 section {
     margin: 0 auto;
     box-sizing: border-box;
-    margin: 0 auto;
+    
     padding: 10px;
     width: 80%;
 }
@@ -23,6 +28,8 @@ section {
 #EEE597
 #EB803C
 */
+
+/* Настройки стилей Хедера */
 
 header {
     background-color: #EEE597;
@@ -48,7 +55,7 @@ header {
 
 
 
-
+/* настройки стилей Футера */
 footer {
     background-color: #EEE597;
     border-radius: 40px 40px 0px 0px;
@@ -68,7 +75,39 @@ footer {
     border: 2px solid black;
 }
 
-.a_footer {
-    text-decoration: none;
-    color: black;
+
+/* настройки стилей Мейна */
+
+main {
+    box-sizing: border-box;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.main_section {
+    border: 2px solid black;  
+    
+    
+}
+
+.main_div {
+    border: 2px solid black;  
+    padding: 20px;
+    
+}
+
+.app {
+    display: flex;
+    flex-direction: row; 
+}
+
+.app_img {
+    border: 2px solid black; 
+    width: 35%;
+    
+}
+
+.app_text {
+    border: 2px solid black;
+    width: 65%;
 }
