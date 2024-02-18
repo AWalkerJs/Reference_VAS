@@ -2,10 +2,20 @@ html {
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
-    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #74B997;
+}
+
+section {
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+}
 /*  цвета
 #163843
 #1A5966
@@ -20,9 +30,6 @@ header {
 }
 
 .header_container {
-    margin: 0 auto;
-    padding: 10px;
-    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,4 +42,33 @@ header {
 
 .img_header {
     width: 20%;
+}
+
+
+
+
+
+
+footer {
+    background-color: #EEE597;
+    border-radius: 40px 40px 0px 0px;
+    box-sizing: border-box;
+    
+}
+
+.footer_container {
+    margin: 0 auto; 
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 32px;
+
+    border: 2px solid black;
+}
+
+.a_footer {
+    text-decoration: none;
+    color: black;
 }
